@@ -1,7 +1,7 @@
 module.exports = {
   bucket: {
     origin: "original-bucket",
-    thumbnail: "thumbnailed-destination",
+    thumbnail: "thumbnail-destination",
   },
   images: {
     dir: "images",
