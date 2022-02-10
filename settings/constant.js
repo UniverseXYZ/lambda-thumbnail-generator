@@ -1,22 +1,22 @@
 module.exports = {
   bucket: {
-    origin: "stepup-images",
-    thumbnail: "stepup-thumbnails"
+    origin: "original-bucket",
+    thumbnail: "thumbnailed-destination",
   },
   images: {
     dir: "images",
-    extensions: [".jpg", ".jpeg", ".png"]
+    extensions: [".jpg", ".jpeg", ".png"],
   },
   moment: {
     dir: "moment",
-    extensions: [".gif"]
+    extensions: [".gif"],
   },
   videos: {
-    dir: "videos"
+    dir: "videos",
   },
   breakpoints: {
     sm: 640,
     md: 1240,
-    lg: 1920
-  }
+    lg: 1920,
+  },
 };
